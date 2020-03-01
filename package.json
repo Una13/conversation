@@ -1,0 +1,27 @@
+{
+  "name": "conversation",
+  "version": "1.0.0",
+  "description": "State management conversation class",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "eslint . --ext .js",
+    "test": "jest Conversation.test.js --coverage --verbose"
+  },
+  "keywords": [
+    "state managment",
+    "conversation",
+    "troubleshooting bot",
+    "chat"
+  ],
+  "author": "Una Radosavac",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "jest": "^25.1.0"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}

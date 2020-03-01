@@ -1,0 +1,10 @@
+# NPM
+node_modules
+package-lock.json
+
+# Tests
+coverage
+
+# IDE
+.idea
+.DS_Store
